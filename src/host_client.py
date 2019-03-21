@@ -257,7 +257,7 @@ def get_server_choice():
     return ip, port
 
 def welcome_ui():
-    '''This is the initial text that appers as the game starts.'''
+    '''This is the initial text that appeаrs as the game starts.'''
 
     print("-------------------------------------------------------")
     print("| \t  Welcome to the Tic-Tac-Toe Client!          |")

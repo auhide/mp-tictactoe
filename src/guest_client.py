@@ -16,7 +16,7 @@ from tictactoe_constants import (BUFFER_SIZE,
 class Guest:
     '''
     This class acts like a client and
-    connects to the server which is PlayerOne from host_client.py
+    connects to the server which is Host from host_client.py
     '''
 
     def __init__(self, ip=None, port=None):
@@ -232,7 +232,7 @@ def get_server_choice():
 
 
 def welcome_ui():
-    '''This is the initial text that appers as the game starts.'''
+    '''This is the initial text that appears as the game starts.'''
 
     print("-------------------------------------------------------")
     print("| \t  Welcome to the Tic-Tac-Toe Client!          |")
